@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog xmlns="https://example.com/productfeed" version="1.0">
+<catalog xmlns="https://example.com/productfeed" version="1.1">
   <meta>
     <source>Babypark (TEST)</source>
     <generated_at>2025-12-27T12:00:00+01:00</generated_at>
@@ -9,9 +9,11 @@
   </meta>
 
   <products>
+
     <!-- ===================== Slapen & Rust ===================== -->
     <product>
       <id>BP-10001</id>
+      <ean>8712345000001</ean>
       <title>Ledikant Wit 60x120</title>
       <description>Stevig ledikant met verstelbare bodem, geschikt vanaf geboorte.</description>
       <category>Slapen &amp; Rust</category>
@@ -27,6 +29,8 @@
 
     <product>
       <id>BP-10002</id>
+      <!-- DUPLICATE EAN with BP-10021 (same product listed as "houtlook" variant in another place) -->
+      <ean>8712345000100</ean>
       <title>Co-sleeper Houtlook</title>
       <description>Co-sleeper met ademende zijkant en hoogteverstelling voor naast het bed.</description>
       <category>Slapen &amp; Rust</category>
@@ -42,6 +46,7 @@
 
     <product>
       <id>BP-10003</id>
+      <ean>8712345000003</ean>
       <title>Ledikantmatras 60x120 Comfort</title>
       <description>Anti-allergisch matras met goede ventilatie en afritsbare tijk.</description>
       <category>Slapen &amp; Rust</category>
@@ -57,6 +62,8 @@
 
     <product>
       <id>BP-10004</id>
+      <!-- DUPLICATE EAN with BP-10025 -->
+      <ean>8712345000200</ean>
       <title>Babyslaapzak 0-6 maanden</title>
       <description>Zachte slaapzak met rits, geschikt voor kamertemperaturen 18-22°C.</description>
       <category>Slapen &amp; Rust</category>
@@ -70,9 +77,28 @@
       <image_url>https://images.example.com/babypark/slaapzak-0-6m.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-10005</id>
+      <!-- DUPLICATE EAN with BP-10026 (same item different listing) -->
+      <ean>8712345000300</ean>
+      <title>Hoeslaken Jersey 60x120</title>
+      <description>Jersey hoeslaken voor ledikant, zacht en rekbaar.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Hoeslaken</subcategory>
+      <brand>Babypark</brand>
+      <price>8.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/hoeslaken-jersey-60x120</product_url>
+      <image_url>https://images.example.com/babypark/hoeslaken-jersey.jpg</image_url>
+    </product>
+
     <!-- ===================== Voeding ===================== -->
     <product>
       <id>BP-20001</id>
+      <!-- DUPLICATE EAN with BP-20009 (same bottle different color listing) -->
+      <ean>8712345001001</ean>
       <title>Babyfles 260 ml Anti-koliek</title>
       <description>Anti-koliek fles met brede hals, eenvoudig schoon te maken.</description>
       <category>Voeding</category>
@@ -88,6 +114,7 @@
 
     <product>
       <id>BP-20002</id>
+      <ean>8712345001002</ean>
       <title>Sterilisator Elektrisch 6 flessen</title>
       <description>Elektrische sterilisator voor flessen en accessoires, snelprogramma 8 minuten.</description>
       <category>Voeding</category>
@@ -103,6 +130,8 @@
 
     <product>
       <id>BP-20003</id>
+      <!-- DUPLICATE EAN with BP-20010 -->
+      <ean>8712345001100</ean>
       <title>Flesverwarmer Snel</title>
       <description>Warmt melk en voeding gelijkmatig op, met automatische uitschakeling.</description>
       <category>Voeding</category>
@@ -118,6 +147,8 @@
 
     <product>
       <id>BP-20004</id>
+      <!-- DUPLICATE EAN with BP-20011 (same product bundled/variant listing) -->
+      <ean>8712345001200</ean>
       <title>Borstkolf Elektrisch Compact</title>
       <description>Compacte elektrische borstkolf met meerdere standen en stille motor.</description>
       <category>Voeding</category>
@@ -131,9 +162,43 @@
       <image_url>https://images.example.com/babypark/borstkolf-compact.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-20005</id>
+      <ean>8712345001005</ean>
+      <title>Voedingsbewaarbakje 200 ml</title>
+      <description>Bewaarbakje voor melk of hapjes, stapelbaar en lekvrij.</description>
+      <category>Voeding</category>
+      <subcategory>Bewaarbakje</subcategory>
+      <brand>Babypark</brand>
+      <price>4.50</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/voedingsbewaarbakje-200</product_url>
+      <image_url>https://images.example.com/babypark/bewaarbakje-200.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20006</id>
+      <!-- DUPLICATE EAN with BP-20012 and BP-20013 (3x duplicate) -->
+      <ean>8712345001300</ean>
+      <title>Fopspeen 0-6 maanden</title>
+      <description>Fopspeen geschikt voor 0-6 maanden, BPA-vrij.</description>
+      <category>Voeding</category>
+      <subcategory>Fopspeen</subcategory>
+      <brand>Babypark</brand>
+      <price>5.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/fopspeen-0-6m</product_url>
+      <image_url>https://images.example.com/babypark/fopspeen-0-6m.jpg</image_url>
+    </product>
+
     <!-- ===================== Verschonen & Verzorging ===================== -->
     <product>
       <id>BP-30001</id>
+      <ean>8712345002001</ean>
       <title>Commode 3-lade Wit</title>
       <description>Commode met 3 lades, geschikt voor aankleedkussen bovenop.</description>
       <category>Verschonen &amp; Verzorging</category>
@@ -149,6 +214,7 @@
 
     <product>
       <id>BP-30002</id>
+      <ean>8712345002002</ean>
       <title>Aankleedkussen 50x70</title>
       <description>Comfortabel aankleedkussen met opstaande randen voor extra veiligheid.</description>
       <category>Verschonen &amp; Verzorging</category>
@@ -164,6 +230,8 @@
 
     <product>
       <id>BP-30003</id>
+      <!-- DUPLICATE EAN with BP-30009 -->
+      <ean>8712345002100</ean>
       <title>Luieremmer Geurvrij</title>
       <description>Luieremmer met afsluiting om geurtjes te beperken, geschikt voor navulcassettes.</description>
       <category>Verschonen &amp; Verzorging</category>
@@ -179,6 +247,7 @@
 
     <product>
       <id>BP-30004</id>
+      <ean>8712345002004</ean>
       <title>Babybadje Anatomisch</title>
       <description>Ergonomisch babybadje met antislip, geschikt vanaf geboorte.</description>
       <category>Verschonen &amp; Verzorging</category>
@@ -192,9 +261,27 @@
       <image_url>https://images.example.com/babypark/babybadje.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-30005</id>
+      <!-- DUPLICATE EAN with BP-30010 -->
+      <ean>8712345002200</ean>
+      <title>Billendoekje Navulverpakking</title>
+      <description>Zachte billendoekjes zonder parfum, geschikt voor gevoelige huid.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Billendoekje</subcategory>
+      <brand>Babypark</brand>
+      <price>2.49</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/billendoekje-navul</product_url>
+      <image_url>https://images.example.com/babypark/billendoekje.jpg</image_url>
+    </product>
+
     <!-- ===================== Kleding ===================== -->
     <product>
       <id>BP-40001</id>
+      <ean>8712345003001</ean>
       <title>Romper Lange Mouw Maat 56</title>
       <description>Zachte katoenromper met overslagsluiting, ideaal voor newborn.</description>
       <category>Kleding</category>
@@ -210,6 +297,7 @@
 
     <product>
       <id>BP-40002</id>
+      <ean>8712345003002</ean>
       <title>Boxpakje Maat 56</title>
       <description>Comfortabel boxpakje met voetje en drukknopen voor makkelijk verschonen.</description>
       <category>Kleding</category>
@@ -225,6 +313,8 @@
 
     <product>
       <id>BP-40003</id>
+      <!-- DUPLICATE EAN with BP-40008 -->
+      <ean>8712345003100</ean>
       <title>Muts Newborn Katoen</title>
       <description>Newborn muts van katoen, zacht en ademend.</description>
       <category>Kleding</category>
@@ -238,9 +328,26 @@
       <image_url>https://images.example.com/babypark/muts-newborn.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-40004</id>
+      <ean>8712345003004</ean>
+      <title>Sok Newborn 5-pack</title>
+      <description>Newborn sokken set, comfortabel en elastisch.</description>
+      <category>Kleding</category>
+      <subcategory>Sok</subcategory>
+      <brand>Babypark</brand>
+      <price>6.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/sok-newborn-5pack</product_url>
+      <image_url>https://images.example.com/babypark/sok-5pack.jpg</image_url>
+    </product>
+
     <!-- ===================== Onderweg ===================== -->
     <product>
       <id>BP-50001</id>
+      <ean>8712345004001</ean>
       <title>Kinderwagen 2-in-1 Zwart</title>
       <description>2-in-1 kinderwagen met reiswieg en zitje, inclusief boodschappenmand.</description>
       <category>Onderweg</category>
@@ -256,6 +363,8 @@
 
     <product>
       <id>BP-50002</id>
+      <!-- DUPLICATE EAN with BP-50007 -->
+      <ean>8712345004100</ean>
       <title>Autostoel Groep 0+ i-Size</title>
       <description>Veilige i-Size autostoel voor newborn, geschikt vanaf 40-87 cm.</description>
       <category>Onderweg</category>
@@ -271,6 +380,8 @@
 
     <product>
       <id>BP-50003</id>
+      <!-- DUPLICATE EAN with BP-50008 and BP-50009 (3x duplicate) -->
+      <ean>8712345004200</ean>
       <title>Isofix Base</title>
       <description>Isofix base voor snelle en veilige installatie van compatibele autostoelen.</description>
       <category>Onderweg</category>
@@ -286,6 +397,7 @@
 
     <product>
       <id>BP-50004</id>
+      <ean>8712345004004</ean>
       <title>Regenhoes Kinderwagen Universeel</title>
       <description>Universele regenhoes met ventilatiegaten, passend op de meeste kinderwagens.</description>
       <category>Onderweg</category>
@@ -301,6 +413,7 @@
 
     <product>
       <id>BP-50005</id>
+      <ean>8712345004005</ean>
       <title>Draagzak Ergonomisch</title>
       <description>Ergonomische draagzak met verstelbare banden, geschikt vanaf 3,5 kg.</description>
       <category>Onderweg</category>
@@ -314,9 +427,27 @@
       <image_url>https://images.example.com/babypark/draagzak-ergonomisch.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-50006</id>
+      <ean>8712345004006</ean>
+      <title>Autospiegel Achterwaarts</title>
+      <description>Autospiegel om je baby te zien in achterwaarts gericht autostoeltje.</description>
+      <category>Onderweg</category>
+      <subcategory>Autospiegel</subcategory>
+      <brand>Babypark</brand>
+      <price>12.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/autospiegel-achterwaarts</product_url>
+      <image_url>https://images.example.com/babypark/autospiegel.jpg</image_url>
+    </product>
+
     <!-- ===================== Spelen & Comfort ===================== -->
     <product>
       <id>BP-60001</id>
+      <!-- DUPLICATE EAN with BP-60006 -->
+      <ean>8712345005100</ean>
       <title>Speelkleed Gewatteerd</title>
       <description>Zacht, gewatteerd speelkleed voor buikligging en spelen op de vloer.</description>
       <category>Spelen &amp; Comfort</category>
@@ -332,6 +463,7 @@
 
     <product>
       <id>BP-60002</id>
+      <ean>8712345005002</ean>
       <title>Babygym Houten Frame</title>
       <description>Houten babygym met drie hangspeeltjes voor sensorische stimulatie.</description>
       <category>Spelen &amp; Comfort</category>
@@ -347,6 +479,7 @@
 
     <product>
       <id>BP-60003</id>
+      <ean>8712345005003</ean>
       <title>Wipstoel Neutraal</title>
       <description>Comfortabele wipstoel met verstelbare rugleuning en veiligheidsgordel.</description>
       <category>Spelen &amp; Comfort</category>
@@ -360,9 +493,26 @@
       <image_url>https://images.example.com/babypark/wipstoel.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-60004</id>
+      <ean>8712345005004</ean>
+      <title>Bijtring Siliconen</title>
+      <description>Siliconen bijtring met structuur voor verzachting bij doorkomende tandjes.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Bijtring</subcategory>
+      <brand>Babypark</brand>
+      <price>6.50</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/bijtring-siliconen</product_url>
+      <image_url>https://images.example.com/babypark/bijtring.jpg</image_url>
+    </product>
+
     <!-- ===================== In Huis ===================== -->
     <product>
       <id>BP-70001</id>
+      <ean>8712345006001</ean>
       <title>Box Hout Naturel</title>
       <description>Houten box met verstelbare bodem, geschikt voor dagelijks gebruik.</description>
       <category>In Huis</category>
@@ -378,6 +528,7 @@
 
     <product>
       <id>BP-70002</id>
+      <ean>8712345006002</ean>
       <title>Traphekje Klembevestiging</title>
       <description>Traphekje met klembevestiging, geschikt voor openingen 73-83 cm.</description>
       <category>In Huis</category>
@@ -393,6 +544,7 @@
 
     <product>
       <id>BP-70003</id>
+      <ean>8712345006003</ean>
       <title>Opbergmand Vilt</title>
       <description>Vilt opbergmand voor luiers en verzorgingsspullen, past in kast of commode.</description>
       <category>In Huis</category>
@@ -406,9 +558,27 @@
       <image_url>https://images.example.com/babypark/opbergmand.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-70004</id>
+      <!-- DUPLICATE EAN with BP-70005 -->
+      <ean>8712345006100</ean>
+      <title>Stopcontactbeschermer Set</title>
+      <description>Set stopcontactbeschermers voor extra veiligheid in huis.</description>
+      <category>In Huis</category>
+      <subcategory>Stopcontactbeschermer</subcategory>
+      <brand>Babypark</brand>
+      <price>5.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/stopcontactbeschermer-set</product_url>
+      <image_url>https://images.example.com/babypark/stopcontactbeschermer.jpg</image_url>
+    </product>
+
     <!-- ===================== Gezondheid & Veiligheid ===================== -->
     <product>
       <id>BP-80001</id>
+      <ean>8712345007001</ean>
       <title>Digitale Thermometer Flex</title>
       <description>Snelle digitale thermometer met flexibele tip en koortsalarm.</description>
       <category>Gezondheid &amp; Veiligheid</category>
@@ -424,6 +594,8 @@
 
     <product>
       <id>BP-80002</id>
+      <!-- DUPLICATE EAN with BP-80005 -->
+      <ean>8712345007100</ean>
       <title>EHBO-set Baby</title>
       <description>EHBO-set met pleisters, schaar, pincet en basisbenodigdheden voor baby.</description>
       <category>Gezondheid &amp; Veiligheid</category>
@@ -439,6 +611,7 @@
 
     <product>
       <id>BP-80003</id>
+      <ean>8712345007003</ean>
       <title>Luchtbevochtiger Stil</title>
       <description>Stille luchtbevochtiger voor babykamer, met automatische uitschakeling.</description>
       <category>Gezondheid &amp; Veiligheid</category>
@@ -452,9 +625,27 @@
       <image_url>https://images.example.com/babypark/luchtbevochtiger.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-80004</id>
+      <!-- DUPLICATE EAN with BP-80006 and BP-80007 (3x duplicate) -->
+      <ean>8712345007200</ean>
+      <title>Neusreiniger Handmatig</title>
+      <description>Handmatige neusreiniger voor baby, eenvoudig schoon te maken.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Neusreiniger</subcategory>
+      <brand>Babypark</brand>
+      <price>6.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/neusreiniger-handmatig</product_url>
+      <image_url>https://images.example.com/babypark/neusreiniger.jpg</image_url>
+    </product>
+
     <!-- ===================== Voor Mama & Papa ===================== -->
     <product>
       <id>BP-90001</id>
+      <ean>8712345008001</ean>
       <title>Zoogcompress Wasbaar</title>
       <description>Wasbare zoogcompressen voor dagelijks gebruik, zacht en ademend.</description>
       <category>Voor Mama &amp; Papa</category>
@@ -470,6 +661,8 @@
 
     <product>
       <id>BP-90002</id>
+      <!-- DUPLICATE EAN with BP-90004 -->
+      <ean>8712345008100</ean>
       <title>Tepelzalf Lanoline</title>
       <description>Verzorgende lanolinezalf, geschikt voor de borstvoedingsperiode.</description>
       <category>Voor Mama &amp; Papa</category>
@@ -483,9 +676,26 @@
       <image_url>https://images.example.com/babypark/tepelzalf.jpg</image_url>
     </product>
 
+    <product>
+      <id>BP-90003</id>
+      <ean>8712345008003</ean>
+      <title>Kraamverband</title>
+      <description>Absorberend kraamverband voor de eerste dagen na de bevalling.</description>
+      <category>Voor Mama &amp; Papa</category>
+      <subcategory>Kraamverband</subcategory>
+      <brand>Babypark</brand>
+      <price>4.99</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/kraamverband</product_url>
+      <image_url>https://images.example.com/babypark/kraamverband.jpg</image_url>
+    </product>
+
     <!-- ===================== Kraamtijd & Ziekenhuis ===================== -->
     <product>
       <id>BP-100001</id>
+      <ean>8712345009001</ean>
       <title>Kraampakket Compleet</title>
       <description>Kraampakket met basisbenodigdheden voor de kraamperiode volgens NL-richtlijnen.</description>
       <category>Kraamtijd &amp; Ziekenhuis</category>
@@ -501,6 +711,7 @@
 
     <product>
       <id>BP-100002</id>
+      <ean>8712345009002</ean>
       <title>Vluchttas Organizer</title>
       <description>Praktische vluchttas organizer met vakken voor documenten, kleding en verzorging.</description>
       <category>Kraamtijd &amp; Ziekenhuis</category>
@@ -514,144 +725,10 @@
       <image_url>https://images.example.com/babypark/vluchttas.jpg</image_url>
     </product>
 
-    <!-- ===================== Extra producten om aan ~30 te komen (mix) ===================== -->
-    <product>
-      <id>BP-10005</id>
-      <title>Hoeslaken Jersey 60x120</title>
-      <description>Jersey hoeslaken voor ledikant, zacht en rekbaar.</description>
-      <category>Slapen &amp; Rust</category>
-      <subcategory>Hoeslaken</subcategory>
-      <brand>Babypark</brand>
-      <price>8.95</price>
-      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/hoeslaken-jersey-60x120</product_url>
-      <image_url>https://images.example.com/babypark/hoeslaken-jersey.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-20005</id>
-      <title>Voedingsbewaarbakje 200 ml</title>
-      <description>Bewaarbakje voor melk of hapjes, stapelbaar en lekvrij.</description>
-      <category>Voeding</category>
-      <subcategory>Bewaarbakje</subcategory>
-      <brand>Babypark</brand>
-      <price>4.50</price>
-      <delivery_time>1-2 werkdagen</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/voedingsbewaarbakje-200</product_url>
-      <image_url>https://images.example.com/babypark/bewaarbakje-200.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-30005</id>
-      <title>Billendoekje Navulverpakking</title>
-      <description>Zachte billendoekjes zonder parfum, geschikt voor gevoelige huid.</description>
-      <category>Verschonen &amp; Verzorging</category>
-      <subcategory>Billendoekje</subcategory>
-      <brand>Babypark</brand>
-      <price>2.49</price>
-      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/billendoekje-navul</product_url>
-      <image_url>https://images.example.com/babypark/billendoekje.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-40004</id>
-      <title>Sok Newborn 5-pack</title>
-      <description>Newborn sokken set, comfortabel en elastisch.</description>
-      <category>Kleding</category>
-      <subcategory>Sok</subcategory>
-      <brand>Babypark</brand>
-      <price>6.99</price>
-      <delivery_time>1-3 werkdagen</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/sok-newborn-5pack</product_url>
-      <image_url>https://images.example.com/babypark/sok-5pack.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-50006</id>
-      <title>Autospiegel Achterwaarts</title>
-      <description>Autospiegel om je baby te zien in achterwaarts gericht autostoeltje.</description>
-      <category>Onderweg</category>
-      <subcategory>Autospiegel</subcategory>
-      <brand>Babypark</brand>
-      <price>12.99</price>
-      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/autospiegel-achterwaarts</product_url>
-      <image_url>https://images.example.com/babypark/autospiegel.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-60004</id>
-      <title>Bijtring Siliconen</title>
-      <description>Siliconen bijtring met structuur voor verzachting bij doorkomende tandjes.</description>
-      <category>Spelen &amp; Comfort</category>
-      <subcategory>Bijtring</subcategory>
-      <brand>Babypark</brand>
-      <price>6.50</price>
-      <delivery_time>1-2 werkdagen</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/bijtring-siliconen</product_url>
-      <image_url>https://images.example.com/babypark/bijtring.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-70004</id>
-      <title>Stopcontactbeschermer Set</title>
-      <description>Set stopcontactbeschermers voor extra veiligheid in huis.</description>
-      <category>In Huis</category>
-      <subcategory>Stopcontactbeschermer</subcategory>
-      <brand>Babypark</brand>
-      <price>5.99</price>
-      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/stopcontactbeschermer-set</product_url>
-      <image_url>https://images.example.com/babypark/stopcontactbeschermer.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-80004</id>
-      <title>Neusreiniger Handmatig</title>
-      <description>Handmatige neusreiniger voor baby, eenvoudig schoon te maken.</description>
-      <category>Gezondheid &amp; Veiligheid</category>
-      <subcategory>Neusreiniger</subcategory>
-      <brand>Babypark</brand>
-      <price>6.99</price>
-      <delivery_time>1-3 werkdagen</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/neusreiniger-handmatig</product_url>
-      <image_url>https://images.example.com/babypark/neusreiniger.jpg</image_url>
-    </product>
-
-    <product>
-      <id>BP-90003</id>
-      <title>Kraamverband</title>
-      <description>Absorberend kraamverband voor de eerste dagen na de bevalling.</description>
-      <category>Voor Mama &amp; Papa</category>
-      <subcategory>Kraamverband</subcategory>
-      <brand>Babypark</brand>
-      <price>4.99</price>
-      <delivery_time>1-2 werkdagen</delivery_time>
-      <shipping_cost>4.95</shipping_cost>
-      <availability>op_voorraad</availability>
-      <product_url>https://www.babypark.nl/test/kraamverband</product_url>
-      <image_url>https://images.example.com/babypark/kraamverband.jpg</image_url>
-    </product>
-
     <product>
       <id>BP-100003</id>
+      <!-- DUPLICATE EAN with BP-10027 -->
+      <ean>8712345009100</ean>
       <title>Documentenmap</title>
       <description>Documentenmap voor zwangerschaps- en ziekenhuispapieren.</description>
       <category>Kraamtijd &amp; Ziekenhuis</category>
@@ -664,5 +741,362 @@
       <product_url>https://www.babypark.nl/test/documentenmap</product_url>
       <image_url>https://images.example.com/babypark/documentenmap.jpg</image_url>
     </product>
+
+    <!-- ===================== Additional duplicates & fillers to reach 30 ===================== -->
+
+    <!-- BP-10021 duplicates BP-10002 EAN -->
+    <product>
+      <id>BP-10021</id>
+      <ean>8712345000100</ean>
+      <title>Co-sleeper Naturel</title>
+      <description>Co-sleeper met verstelbare pootjes en ademende zijkant, naturel uitvoering.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Co-sleeper</subcategory>
+      <brand>Babypark</brand>
+      <price>149.00</price>
+      <delivery_time>2-5 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/co-sleeper-naturel</product_url>
+      <image_url>https://images.example.com/babypark/co-sleeper-naturel.jpg</image_url>
+    </product>
+
+    <!-- BP-20009 duplicates BP-20001 EAN -->
+    <product>
+      <id>BP-20009</id>
+      <ean>8712345001001</ean>
+      <title>Babyfles 260 ml Anti-koliek Grijs</title>
+      <description>Anti-koliek fles 260 ml, grijze uitvoering.</description>
+      <category>Voeding</category>
+      <subcategory>Babyfles</subcategory>
+      <brand>Babypark</brand>
+      <price>9.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babyfles-260ml-anti-koliek-grijs</product_url>
+      <image_url>https://images.example.com/babypark/babyfles-260ml-grijs.jpg</image_url>
+    </product>
+
+    <!-- BP-20010 duplicates BP-20003 EAN -->
+    <product>
+      <id>BP-20010</id>
+      <ean>8712345001100</ean>
+      <title>Flesverwarmer Snel Plus</title>
+      <description>Flesverwarmer met extra warmhoudfunctie.</description>
+      <category>Voeding</category>
+      <subcategory>Flesverwarmer</subcategory>
+      <brand>Babypark</brand>
+      <price>34.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/flesverwarmer-snel-plus</product_url>
+      <image_url>https://images.example.com/babypark/flesverwarmer-plus.jpg</image_url>
+    </product>
+
+    <!-- BP-20011 duplicates BP-20004 EAN -->
+    <product>
+      <id>BP-20011</id>
+      <ean>8712345001200</ean>
+      <title>Borstkolf Elektrisch Compact Set</title>
+      <description>Elektrische borstkolf inclusief extra fles en bewaarbakje.</description>
+      <category>Voeding</category>
+      <subcategory>Borstkolf</subcategory>
+      <brand>Babypark</brand>
+      <price>89.00</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/borstkolf-elektrisch-compact-set</product_url>
+      <image_url>https://images.example.com/babypark/borstkolf-compact-set.jpg</image_url>
+    </product>
+
+    <!-- BP-20012 and BP-20013 duplicates BP-20006 EAN -->
+    <product>
+      <id>BP-20012</id>
+      <ean>8712345001300</ean>
+      <title>Fopspeen 0-6 maanden Roze</title>
+      <description>Fopspeen 0-6 maanden, roze uitvoering, BPA-vrij.</description>
+      <category>Voeding</category>
+      <subcategory>Fopspeen</subcategory>
+      <brand>Babypark</brand>
+      <price>5.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/fopspeen-0-6m-roze</product_url>
+      <image_url>https://images.example.com/babypark/fopspeen-roze.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20013</id>
+      <ean>8712345001300</ean>
+      <title>Fopspeen 0-6 maanden Set</title>
+      <description>Set van 2 fopspenen 0-6 maanden, BPA-vrij.</description>
+      <category>Voeding</category>
+      <subcategory>Fopspeen</subcategory>
+      <brand>Babypark</brand>
+      <price>9.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/fopspeen-0-6m-set</product_url>
+      <image_url>https://images.example.com/babypark/fopspeen-set.jpg</image_url>
+    </product>
+
+    <!-- BP-30009 duplicates BP-30003 EAN -->
+    <product>
+      <id>BP-30009</id>
+      <ean>8712345002100</ean>
+      <title>Luieremmer Geurvrij Grijs</title>
+      <description>Luieremmer geurvrij, grijze uitvoering.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Luieremmer</subcategory>
+      <brand>Babypark</brand>
+      <price>29.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/luieremmer-geurvrij-grijs</product_url>
+      <image_url>https://images.example.com/babypark/luieremmer-grijs.jpg</image_url>
+    </product>
+
+    <!-- BP-30010 duplicates BP-30005 EAN -->
+    <product>
+      <id>BP-30010</id>
+      <ean>8712345002200</ean>
+      <title>Billendoekje Sensitive Navulverpakking</title>
+      <description>Billendoekje sensitive navulverpakking, zonder parfum.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Billendoekje</subcategory>
+      <brand>Babypark</brand>
+      <price>2.49</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/billendoekje-sensitive-navul</product_url>
+      <image_url>https://images.example.com/babypark/billendoekje-sensitive.jpg</image_url>
+    </product>
+
+    <!-- BP-40008 duplicates BP-40003 EAN -->
+    <product>
+      <id>BP-40008</id>
+      <ean>8712345003100</ean>
+      <title>Muts Newborn Katoen Set</title>
+      <description>Set van 2 newborn mutsjes van katoen.</description>
+      <category>Kleding</category>
+      <subcategory>Muts</subcategory>
+      <brand>Babypark</brand>
+      <price>7.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/muts-newborn-katoen-set</product_url>
+      <image_url>https://images.example.com/babypark/muts-set.jpg</image_url>
+    </product>
+
+    <!-- BP-50007 duplicates BP-50002 EAN -->
+    <product>
+      <id>BP-50007</id>
+      <ean>8712345004100</ean>
+      <title>Autostoel Groep 0+ i-Size Midnight</title>
+      <description>i-Size autostoel, donkerblauwe uitvoering.</description>
+      <category>Onderweg</category>
+      <subcategory>Autostoel</subcategory>
+      <brand>Babypark</brand>
+      <price>159.00</price>
+      <delivery_time>2-5 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/autostoel-0plus-isize-midnight</product_url>
+      <image_url>https://images.example.com/babypark/autostoel-midnight.jpg</image_url>
+    </product>
+
+    <!-- BP-50008 and BP-50009 duplicates BP-50003 EAN -->
+    <product>
+      <id>BP-50008</id>
+      <ean>8712345004200</ean>
+      <title>Isofix Base Plus</title>
+      <description>Isofix base met kleurindicator voor correcte bevestiging.</description>
+      <category>Onderweg</category>
+      <subcategory>Autostoel base</subcategory>
+      <brand>Babypark</brand>
+      <price>129.95</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/isofix-base-plus</product_url>
+      <image_url>https://images.example.com/babypark/isofix-base-plus.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50009</id>
+      <ean>8712345004200</ean>
+      <title>Isofix Base Bundel</title>
+      <description>Bundel met isofix base en autostoel adapterset.</description>
+      <category>Onderweg</category>
+      <subcategory>Autostoel base</subcategory>
+      <brand>Babypark</brand>
+      <price>139.95</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/isofix-base-bundel</product_url>
+      <image_url>https://images.example.com/babypark/isofix-base-bundel.jpg</image_url>
+    </product>
+
+    <!-- BP-60006 duplicates BP-60001 EAN -->
+    <product>
+      <id>BP-60006</id>
+      <ean>8712345005100</ean>
+      <title>Speelkleed Gewatteerd Beige</title>
+      <description>Gewatteerd speelkleed, beige uitvoering.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Speelkleed</subcategory>
+      <brand>Babypark</brand>
+      <price>34.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/speelkleed-gewatteerd-beige</product_url>
+      <image_url>https://images.example.com/babypark/speelkleed-beige.jpg</image_url>
+    </product>
+
+    <!-- BP-70005 duplicates BP-70004 EAN -->
+    <product>
+      <id>BP-70005</id>
+      <ean>8712345006100</ean>
+      <title>Stopcontactbeschermer Set XL</title>
+      <description>Stopcontactbeschermer set XL, extra stuks in verpakking.</description>
+      <category>In Huis</category>
+      <subcategory>Stopcontactbeschermer</subcategory>
+      <brand>Babypark</brand>
+      <price>7.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/stopcontactbeschermer-set-xl</product_url>
+      <image_url>https://images.example.com/babypark/stopcontactbeschermer-xl.jpg</image_url>
+    </product>
+
+    <!-- BP-80005 duplicates BP-80002 EAN -->
+    <product>
+      <id>BP-80005</id>
+      <ean>8712345007100</ean>
+      <title>EHBO-set Baby Reisset</title>
+      <description>Compacte EHBO-set voor onderweg, met basisitems.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>EHBO</subcategory>
+      <brand>Babypark</brand>
+      <price>12.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/ehbo-set-baby-reis</product_url>
+      <image_url>https://images.example.com/babypark/ehbo-baby-reis.jpg</image_url>
+    </product>
+
+    <!-- BP-80006 and BP-80007 duplicates BP-80004 EAN -->
+    <product>
+      <id>BP-80006</id>
+      <ean>8712345007200</ean>
+      <title>Neusreiniger Handmatig Set</title>
+      <description>Set met handmatige neusreiniger en reserve tip.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Neusreiniger</subcategory>
+      <brand>Babypark</brand>
+      <price>9.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/neusreiniger-handmatig-set</product_url>
+      <image_url>https://images.example.com/babypark/neusreiniger-set.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-80007</id>
+      <ean>8712345007200</ean>
+      <title>Neusreiniger Handmatig Deluxe</title>
+      <description>Handmatige neusreiniger met zachte siliconen tip.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Neusreiniger</subcategory>
+      <brand>Babypark</brand>
+      <price>11.49</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/neusreiniger-handmatig-deluxe</product_url>
+      <image_url>https://images.example.com/babypark/neusreiniger-deluxe.jpg</image_url>
+    </product>
+
+    <!-- BP-90004 duplicates BP-90002 EAN -->
+    <product>
+      <id>BP-90004</id>
+      <ean>8712345008100</ean>
+      <title>Tepelzalf Lanoline Mini</title>
+      <description>Mini tepelzalf voor in de luiertas, lanoline basis.</description>
+      <category>Voor Mama &amp; Papa</category>
+      <subcategory>Verzorging</subcategory>
+      <brand>Babypark</brand>
+      <price>4.99</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/tepelzalf-lanoline-mini</product_url>
+      <image_url>https://images.example.com/babypark/tepelzalf-mini.jpg</image_url>
+    </product>
+
+    <!-- BP-10025 duplicates BP-10004 EAN -->
+    <product>
+      <id>BP-10025</id>
+      <ean>8712345000200</ean>
+      <title>Babyslaapzak 0-6 maanden Winter</title>
+      <description>Warme winterslaapzak met zachte voering, 0-6 maanden.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Slaapzak</subcategory>
+      <brand>Babypark</brand>
+      <price>29.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babyslaapzak-0-6m-winter</product_url>
+      <image_url>https://images.example.com/babypark/slaapzak-winter.jpg</image_url>
+    </product>
+
+    <!-- BP-10026 duplicates BP-10005 EAN -->
+    <product>
+      <id>BP-10026</id>
+      <ean>8712345000300</ean>
+      <title>Hoeslaken Jersey 60x120 Beige</title>
+      <description>Jersey hoeslaken 60x120, beige uitvoering.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Hoeslaken</subcategory>
+      <brand>Babypark</brand>
+      <price>8.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/hoeslaken-jersey-60x120-beige</product_url>
+      <image_url>https://images.example.com/babypark/hoeslaken-beige.jpg</image_url>
+    </product>
+
+    <!-- BP-10027 duplicates BP-100003 EAN -->
+    <product>
+      <id>BP-10027</id>
+      <ean>8712345009100</ean>
+      <title>Documentenmap XL</title>
+      <description>Documentenmap XL met extra vakken voor echo’s, paspoort en formulieren.</description>
+      <category>Kraamtijd &amp; Ziekenhuis</category>
+      <subcategory>Documentenmap</subcategory>
+      <brand>Babypark</brand>
+      <price>12.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/documentenmap-xl</product_url>
+      <image_url>https://images.example.com/babypark/documentenmap-xl.jpg</image_url>
+    </product>
+
   </products>
 </catalog>
