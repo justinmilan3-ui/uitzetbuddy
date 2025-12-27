@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="https://example.com/productfeed" version="1.0">
+  <meta>
+    <source>Babypark (TEST)</source>
+    <generated_at>2025-12-27T12:00:00+01:00</generated_at>
+    <currency>EUR</currency>
+    <country>NL</country>
+    <language>nl</language>
+  </meta>
+
+  <products>
+    <!-- ===================== Slapen & Rust ===================== -->
+    <product>
+      <id>BP-10001</id>
+      <title>Ledikant Wit 60x120</title>
+      <description>Stevig ledikant met verstelbare bodem, geschikt vanaf geboorte.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Ledikant</subcategory>
+      <brand>Babypark</brand>
+      <price>189.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/ledikant-wit-60x120</product_url>
+      <image_url>https://images.example.com/babypark/ledikant-wit-60x120.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-10002</id>
+      <title>Co-sleeper Houtlook</title>
+      <description>Co-sleeper met ademende zijkant en hoogteverstelling voor naast het bed.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Co-sleeper</subcategory>
+      <brand>Babypark</brand>
+      <price>149.00</price>
+      <delivery_time>2-5 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/co-sleeper-houtlook</product_url>
+      <image_url>https://images.example.com/babypark/co-sleeper-houtlook.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-10003</id>
+      <title>Ledikantmatras 60x120 Comfort</title>
+      <description>Anti-allergisch matras met goede ventilatie en afritsbare tijk.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Matras</subcategory>
+      <brand>Babypark</brand>
+      <price>79.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/ledikantmatras-60x120-comfort</product_url>
+      <image_url>https://images.example.com/babypark/matras-60x120-comfort.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-10004</id>
+      <title>Babyslaapzak 0-6 maanden</title>
+      <description>Zachte slaapzak met rits, geschikt voor kamertemperaturen 18-22°C.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Slaapzak</subcategory>
+      <brand>Babypark</brand>
+      <price>24.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babyslaapzak-0-6m</product_url>
+      <image_url>https://images.example.com/babypark/slaapzak-0-6m.jpg</image_url>
+    </product>
+
+    <!-- ===================== Voeding ===================== -->
+    <product>
+      <id>BP-20001</id>
+      <title>Babyfles 260 ml Anti-koliek</title>
+      <description>Anti-koliek fles met brede hals, eenvoudig schoon te maken.</description>
+      <category>Voeding</category>
+      <subcategory>Babyfles</subcategory>
+      <brand>Babypark</brand>
+      <price>9.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babyfles-260ml-anti-koliek</product_url>
+      <image_url>https://images.example.com/babypark/babyfles-260ml.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20002</id>
+      <title>Sterilisator Elektrisch 6 flessen</title>
+      <description>Elektrische sterilisator voor flessen en accessoires, snelprogramma 8 minuten.</description>
+      <category>Voeding</category>
+      <subcategory>Sterilisator</subcategory>
+      <brand>Babypark</brand>
+      <price>49.95</price>
+      <delivery_time>2-4 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/sterilisator-elektrisch-6</product_url>
+      <image_url>https://images.example.com/babypark/sterilisator-elektrisch.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20003</id>
+      <title>Flesverwarmer Snel</title>
+      <description>Warmt melk en voeding gelijkmatig op, met automatische uitschakeling.</description>
+      <category>Voeding</category>
+      <subcategory>Flesverwarmer</subcategory>
+      <brand>Babypark</brand>
+      <price>34.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/flesverwarmer-snel</product_url>
+      <image_url>https://images.example.com/babypark/flesverwarmer.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20004</id>
+      <title>Borstkolf Elektrisch Compact</title>
+      <description>Compacte elektrische borstkolf met meerdere standen en stille motor.</description>
+      <category>Voeding</category>
+      <subcategory>Borstkolf</subcategory>
+      <brand>Babypark</brand>
+      <price>89.00</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/borstkolf-elektrisch-compact</product_url>
+      <image_url>https://images.example.com/babypark/borstkolf-compact.jpg</image_url>
+    </product>
+
+    <!-- ===================== Verschonen & Verzorging ===================== -->
+    <product>
+      <id>BP-30001</id>
+      <title>Commode 3-lade Wit</title>
+      <description>Commode met 3 lades, geschikt voor aankleedkussen bovenop.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Commode</subcategory>
+      <brand>Babypark</brand>
+      <price>229.00</price>
+      <delivery_time>5-10 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/commode-3-lade-wit</product_url>
+      <image_url>https://images.example.com/babypark/commode-3-lade.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-30002</id>
+      <title>Aankleedkussen 50x70</title>
+      <description>Comfortabel aankleedkussen met opstaande randen voor extra veiligheid.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Aankleedkussen</subcategory>
+      <brand>Babypark</brand>
+      <price>19.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/aankleedkussen-50x70</product_url>
+      <image_url>https://images.example.com/babypark/aankleedkussen-50x70.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-30003</id>
+      <title>Luieremmer Geurvrij</title>
+      <description>Luieremmer met afsluiting om geurtjes te beperken, geschikt voor navulcassettes.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Luieremmer</subcategory>
+      <brand>Babypark</brand>
+      <price>29.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/luieremmer-geurvrij</product_url>
+      <image_url>https://images.example.com/babypark/luieremmer.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-30004</id>
+      <title>Babybadje Anatomisch</title>
+      <description>Ergonomisch babybadje met antislip, geschikt vanaf geboorte.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Babybad</subcategory>
+      <brand>Babypark</brand>
+      <price>17.50</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babybadje-anatomisch</product_url>
+      <image_url>https://images.example.com/babypark/babybadje.jpg</image_url>
+    </product>
+
+    <!-- ===================== Kleding ===================== -->
+    <product>
+      <id>BP-40001</id>
+      <title>Romper Lange Mouw Maat 56</title>
+      <description>Zachte katoenromper met overslagsluiting, ideaal voor newborn.</description>
+      <category>Kleding</category>
+      <subcategory>Romper</subcategory>
+      <brand>Babypark</brand>
+      <price>7.99</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/romper-lange-mouw-56</product_url>
+      <image_url>https://images.example.com/babypark/romper-lm-56.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-40002</id>
+      <title>Boxpakje Maat 56</title>
+      <description>Comfortabel boxpakje met voetje en drukknopen voor makkelijk verschonen.</description>
+      <category>Kleding</category>
+      <subcategory>Boxpak</subcategory>
+      <brand>Babypark</brand>
+      <price>14.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/boxpakje-56</product_url>
+      <image_url>https://images.example.com/babypark/boxpakje-56.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-40003</id>
+      <title>Muts Newborn Katoen</title>
+      <description>Newborn muts van katoen, zacht en ademend.</description>
+      <category>Kleding</category>
+      <subcategory>Muts</subcategory>
+      <brand>Babypark</brand>
+      <price>4.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/muts-newborn-katoen</product_url>
+      <image_url>https://images.example.com/babypark/muts-newborn.jpg</image_url>
+    </product>
+
+    <!-- ===================== Onderweg ===================== -->
+    <product>
+      <id>BP-50001</id>
+      <title>Kinderwagen 2-in-1 Zwart</title>
+      <description>2-in-1 kinderwagen met reiswieg en zitje, inclusief boodschappenmand.</description>
+      <category>Onderweg</category>
+      <subcategory>Kinderwagen</subcategory>
+      <brand>Babypark</brand>
+      <price>399.00</price>
+      <delivery_time>7-14 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/kinderwagen-2in1-zwart</product_url>
+      <image_url>https://images.example.com/babypark/kinderwagen-2in1.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50002</id>
+      <title>Autostoel Groep 0+ i-Size</title>
+      <description>Veilige i-Size autostoel voor newborn, geschikt vanaf 40-87 cm.</description>
+      <category>Onderweg</category>
+      <subcategory>Autostoel</subcategory>
+      <brand>Babypark</brand>
+      <price>159.00</price>
+      <delivery_time>2-5 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/autostoel-0plus-isize</product_url>
+      <image_url>https://images.example.com/babypark/autostoel-isize.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50003</id>
+      <title>Isofix Base</title>
+      <description>Isofix base voor snelle en veilige installatie van compatibele autostoelen.</description>
+      <category>Onderweg</category>
+      <subcategory>Autostoel base</subcategory>
+      <brand>Babypark</brand>
+      <price>129.95</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/isofix-base</product_url>
+      <image_url>https://images.example.com/babypark/isofix-base.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50004</id>
+      <title>Regenhoes Kinderwagen Universeel</title>
+      <description>Universele regenhoes met ventilatiegaten, passend op de meeste kinderwagens.</description>
+      <category>Onderweg</category>
+      <subcategory>Regenhoes</subcategory>
+      <brand>Babypark</brand>
+      <price>19.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/regenhoes-kinderwagen-universeel</product_url>
+      <image_url>https://images.example.com/babypark/regenhoes-universeel.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50005</id>
+      <title>Draagzak Ergonomisch</title>
+      <description>Ergonomische draagzak met verstelbare banden, geschikt vanaf 3,5 kg.</description>
+      <category>Onderweg</category>
+      <subcategory>Draagzak</subcategory>
+      <brand>Babypark</brand>
+      <price>89.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/draagzak-ergonomisch</product_url>
+      <image_url>https://images.example.com/babypark/draagzak-ergonomisch.jpg</image_url>
+    </product>
+
+    <!-- ===================== Spelen & Comfort ===================== -->
+    <product>
+      <id>BP-60001</id>
+      <title>Speelkleed Gewatteerd</title>
+      <description>Zacht, gewatteerd speelkleed voor buikligging en spelen op de vloer.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Speelkleed</subcategory>
+      <brand>Babypark</brand>
+      <price>34.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/speelkleed-gewatteerd</product_url>
+      <image_url>https://images.example.com/babypark/speelkleed.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-60002</id>
+      <title>Babygym Houten Frame</title>
+      <description>Houten babygym met drie hangspeeltjes voor sensorische stimulatie.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Babygym</subcategory>
+      <brand>Babypark</brand>
+      <price>39.99</price>
+      <delivery_time>2-4 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/babygym-houten-frame</product_url>
+      <image_url>https://images.example.com/babypark/babygym-hout.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-60003</id>
+      <title>Wipstoel Neutraal</title>
+      <description>Comfortabele wipstoel met verstelbare rugleuning en veiligheidsgordel.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Wipstoel</subcategory>
+      <brand>Babypark</brand>
+      <price>59.00</price>
+      <delivery_time>3-6 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/wipstoel-neutraal</product_url>
+      <image_url>https://images.example.com/babypark/wipstoel.jpg</image_url>
+    </product>
+
+    <!-- ===================== In Huis ===================== -->
+    <product>
+      <id>BP-70001</id>
+      <title>Box Hout Naturel</title>
+      <description>Houten box met verstelbare bodem, geschikt voor dagelijks gebruik.</description>
+      <category>In Huis</category>
+      <subcategory>Box</subcategory>
+      <brand>Babypark</brand>
+      <price>139.00</price>
+      <delivery_time>5-8 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/box-hout-naturel</product_url>
+      <image_url>https://images.example.com/babypark/box-hout.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-70002</id>
+      <title>Traphekje Klembevestiging</title>
+      <description>Traphekje met klembevestiging, geschikt voor openingen 73-83 cm.</description>
+      <category>In Huis</category>
+      <subcategory>Traphekje</subcategory>
+      <brand>Babypark</brand>
+      <price>44.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/traphekje-klem</product_url>
+      <image_url>https://images.example.com/babypark/traphekje.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-70003</id>
+      <title>Opbergmand Vilt</title>
+      <description>Vilt opbergmand voor luiers en verzorgingsspullen, past in kast of commode.</description>
+      <category>In Huis</category>
+      <subcategory>Opbergmand</subcategory>
+      <brand>Babypark</brand>
+      <price>12.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/opbergmand-vilt</product_url>
+      <image_url>https://images.example.com/babypark/opbergmand.jpg</image_url>
+    </product>
+
+    <!-- ===================== Gezondheid & Veiligheid ===================== -->
+    <product>
+      <id>BP-80001</id>
+      <title>Digitale Thermometer Flex</title>
+      <description>Snelle digitale thermometer met flexibele tip en koortsalarm.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Thermometer</subcategory>
+      <brand>Babypark</brand>
+      <price>7.50</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/digitale-thermometer-flex</product_url>
+      <image_url>https://images.example.com/babypark/thermometer-flex.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-80002</id>
+      <title>EHBO-set Baby</title>
+      <description>EHBO-set met pleisters, schaar, pincet en basisbenodigdheden voor baby.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>EHBO</subcategory>
+      <brand>Babypark</brand>
+      <price>14.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/ehbo-set-baby</product_url>
+      <image_url>https://images.example.com/babypark/ehbo-baby.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-80003</id>
+      <title>Luchtbevochtiger Stil</title>
+      <description>Stille luchtbevochtiger voor babykamer, met automatische uitschakeling.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Luchtbevochtiger</subcategory>
+      <brand>Babypark</brand>
+      <price>39.95</price>
+      <delivery_time>2-5 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>beperkte_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/luchtbevochtiger-stil</product_url>
+      <image_url>https://images.example.com/babypark/luchtbevochtiger.jpg</image_url>
+    </product>
+
+    <!-- ===================== Voor Mama & Papa ===================== -->
+    <product>
+      <id>BP-90001</id>
+      <title>Zoogcompress Wasbaar</title>
+      <description>Wasbare zoogcompressen voor dagelijks gebruik, zacht en ademend.</description>
+      <category>Voor Mama &amp; Papa</category>
+      <subcategory>Zoogcompress</subcategory>
+      <brand>Babypark</brand>
+      <price>8.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/zoogcompress-wasbaar</product_url>
+      <image_url>https://images.example.com/babypark/zoogcompress.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-90002</id>
+      <title>Tepelzalf Lanoline</title>
+      <description>Verzorgende lanolinezalf, geschikt voor de borstvoedingsperiode.</description>
+      <category>Voor Mama &amp; Papa</category>
+      <subcategory>Verzorging</subcategory>
+      <brand>Babypark</brand>
+      <price>6.95</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/tepelzalf-lanoline</product_url>
+      <image_url>https://images.example.com/babypark/tepelzalf.jpg</image_url>
+    </product>
+
+    <!-- ===================== Kraamtijd & Ziekenhuis ===================== -->
+    <product>
+      <id>BP-100001</id>
+      <title>Kraampakket Compleet</title>
+      <description>Kraampakket met basisbenodigdheden voor de kraamperiode volgens NL-richtlijnen.</description>
+      <category>Kraamtijd &amp; Ziekenhuis</category>
+      <subcategory>Kraampakket</subcategory>
+      <brand>Babypark</brand>
+      <price>34.95</price>
+      <delivery_time>2-4 werkdagen</delivery_time>
+      <shipping_cost>0.00</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/kraampakket-compleet</product_url>
+      <image_url>https://images.example.com/babypark/kraampakket.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-100002</id>
+      <title>Vluchttas Organizer</title>
+      <description>Praktische vluchttas organizer met vakken voor documenten, kleding en verzorging.</description>
+      <category>Kraamtijd &amp; Ziekenhuis</category>
+      <subcategory>Vluchttas</subcategory>
+      <brand>Babypark</brand>
+      <price>24.95</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/vluchttas-organizer</product_url>
+      <image_url>https://images.example.com/babypark/vluchttas.jpg</image_url>
+    </product>
+
+    <!-- ===================== Extra producten om aan ~30 te komen (mix) ===================== -->
+    <product>
+      <id>BP-10005</id>
+      <title>Hoeslaken Jersey 60x120</title>
+      <description>Jersey hoeslaken voor ledikant, zacht en rekbaar.</description>
+      <category>Slapen &amp; Rust</category>
+      <subcategory>Hoeslaken</subcategory>
+      <brand>Babypark</brand>
+      <price>8.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/hoeslaken-jersey-60x120</product_url>
+      <image_url>https://images.example.com/babypark/hoeslaken-jersey.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-20005</id>
+      <title>Voedingsbewaarbakje 200 ml</title>
+      <description>Bewaarbakje voor melk of hapjes, stapelbaar en lekvrij.</description>
+      <category>Voeding</category>
+      <subcategory>Bewaarbakje</subcategory>
+      <brand>Babypark</brand>
+      <price>4.50</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/voedingsbewaarbakje-200</product_url>
+      <image_url>https://images.example.com/babypark/bewaarbakje-200.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-30005</id>
+      <title>Billendoekje Navulverpakking</title>
+      <description>Zachte billendoekjes zonder parfum, geschikt voor gevoelige huid.</description>
+      <category>Verschonen &amp; Verzorging</category>
+      <subcategory>Billendoekje</subcategory>
+      <brand>Babypark</brand>
+      <price>2.49</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/billendoekje-navul</product_url>
+      <image_url>https://images.example.com/babypark/billendoekje.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-40004</id>
+      <title>Sok Newborn 5-pack</title>
+      <description>Newborn sokken set, comfortabel en elastisch.</description>
+      <category>Kleding</category>
+      <subcategory>Sok</subcategory>
+      <brand>Babypark</brand>
+      <price>6.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/sok-newborn-5pack</product_url>
+      <image_url>https://images.example.com/babypark/sok-5pack.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-50006</id>
+      <title>Autospiegel Achterwaarts</title>
+      <description>Autospiegel om je baby te zien in achterwaarts gericht autostoeltje.</description>
+      <category>Onderweg</category>
+      <subcategory>Autospiegel</subcategory>
+      <brand>Babypark</brand>
+      <price>12.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/autospiegel-achterwaarts</product_url>
+      <image_url>https://images.example.com/babypark/autospiegel.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-60004</id>
+      <title>Bijtring Siliconen</title>
+      <description>Siliconen bijtring met structuur voor verzachting bij doorkomende tandjes.</description>
+      <category>Spelen &amp; Comfort</category>
+      <subcategory>Bijtring</subcategory>
+      <brand>Babypark</brand>
+      <price>6.50</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/bijtring-siliconen</product_url>
+      <image_url>https://images.example.com/babypark/bijtring.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-70004</id>
+      <title>Stopcontactbeschermer Set</title>
+      <description>Set stopcontactbeschermers voor extra veiligheid in huis.</description>
+      <category>In Huis</category>
+      <subcategory>Stopcontactbeschermer</subcategory>
+      <brand>Babypark</brand>
+      <price>5.99</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/stopcontactbeschermer-set</product_url>
+      <image_url>https://images.example.com/babypark/stopcontactbeschermer.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-80004</id>
+      <title>Neusreiniger Handmatig</title>
+      <description>Handmatige neusreiniger voor baby, eenvoudig schoon te maken.</description>
+      <category>Gezondheid &amp; Veiligheid</category>
+      <subcategory>Neusreiniger</subcategory>
+      <brand>Babypark</brand>
+      <price>6.99</price>
+      <delivery_time>1-3 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/neusreiniger-handmatig</product_url>
+      <image_url>https://images.example.com/babypark/neusreiniger.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-90003</id>
+      <title>Kraamverband</title>
+      <description>Absorberend kraamverband voor de eerste dagen na de bevalling.</description>
+      <category>Voor Mama &amp; Papa</category>
+      <subcategory>Kraamverband</subcategory>
+      <brand>Babypark</brand>
+      <price>4.99</price>
+      <delivery_time>1-2 werkdagen</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/kraamverband</product_url>
+      <image_url>https://images.example.com/babypark/kraamverband.jpg</image_url>
+    </product>
+
+    <product>
+      <id>BP-100003</id>
+      <title>Documentenmap</title>
+      <description>Documentenmap voor zwangerschaps- en ziekenhuispapieren.</description>
+      <category>Kraamtijd &amp; Ziekenhuis</category>
+      <subcategory>Documentenmap</subcategory>
+      <brand>Babypark</brand>
+      <price>9.95</price>
+      <delivery_time>vandaag besteld, morgen in huis</delivery_time>
+      <shipping_cost>4.95</shipping_cost>
+      <availability>op_voorraad</availability>
+      <product_url>https://www.babypark.nl/test/documentenmap</product_url>
+      <image_url>https://images.example.com/babypark/documentenmap.jpg</image_url>
+    </product>
+  </products>
+</catalog>
